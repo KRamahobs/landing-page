@@ -16,9 +16,9 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  padding: 12px;
+  padding: 15px 90px;
 }
 .logo {
   font-size: 24px;
@@ -48,10 +48,135 @@ a {
 
 .hero-section {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  gap: 20px;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-text p {
+  font-size: 24px;
+  color: #e5e7eb;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: right;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hero-text button {
+  border: none;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  padding: 5px 15px;
+  background-color: #3882f6;
+}
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+.main-content {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+.sub-content {
+  max-width: 200px;
+}
+
+.sub-content img {
+  width: 200px;
+  height: 150px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+  margin-bottom: 50px;
+}
+
+#quote-text {
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+#quote-author {
+  align-self: flex-end;
+  margin-right: 70px;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  max-width: 600px;
+  width: 100%;
+  background-color: #3882f6;
+  padding: 30px 80px;
+  border-radius: 5px;
+}
+
+.header-action {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  color: #f9faf8;
+}
+.text h4,
+.text p {
+  margin: 0;
+}
+
+.sign-up {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 8px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: auto;
 }
 
 .footer {
+  margin-top: 50px;
+  padding: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #f9faf8;
 }
